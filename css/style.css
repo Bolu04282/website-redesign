@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+.logo_img{
+	margin: px;
+	width: 250px;
+}
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+}
+.table-responsive{
+    margin-bottom: 10%;
+}
+#list-4{
+    margin-bottom: 20%;
+}
+.heading{
+    color: #E77817;
+    text-align: center;
+    
+}
+#googleMap{
+    width:100%;
+    height:100vh;
+  }
+th{
+    background-color: #E77817;
+    color: #fff;
+}
+.image{
+    margin-bottom: 30px;    
+}
+.description{
+    border: 3px solid #000;
+    padding: 25px 25px 50px 25px;
+}
+.descrip{
+    border: 3px solid #000;
+    padding: 10px;
+}
+.img_description{
+    position: relative;
+    top: -10%;
+    color: #E77817;
+    font-size: 15px;
+}
+footer{
+    background-color: #3f3f3f;
+    color: #d5d5d5;
+    padding-top: 2rem;
+}
+hr.light{
+    border-top: 1px solid #d5d5d5;
+    width: 75%;
+    margin-top: .8rem;
+    margin-bottom: 1rem;
+}
+footer a{
+    color: #d5d5d5;
+}
+.fun{
+    width: 100%;
+    margin-bottom: 2rem;
+    border: none;
+    background-color: #E77817;
+}
+hr.light-100{
+    border-top: 1px solid #d5d5d5;
+    width: 100%;
+    margin-top: .8rem;
+    margin-bottom: 1rem;
+}
+.img-fluid{
+    margin-bottom: 50px;
+    
+}
+
+@media screen and (max-width: 350px){
+    .navbar-toggler{
+        position: relative;
+        left: 40%;
+    }
+    .logo_img{
+        position: relative;
+        left: 5%;
+    }
+}
+
+@media screen  and (max-width: 600px) {
+    .btnToTop{
+       position: fixed;
+       bottom: 20px;
+       right: 20px;
+    }
+   
+}
+@media screen and (max-width: 468px){
+     #btn{
+        margin-bottom: 20px;
+    }
+}
+@media screen and (max-width: 350px){
+    h1 .display-2{
+        font-size: 25px;
+    }
+}
+@media screen and (max-width: 912px){
+    .shift{
+        margin-bottom: 50px;
+    }
+}
+.carousel-caption{
+    position: absolute;
+    top: 25%;
+
+}
+.carousel-caption h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 4rem;
+    color: #E77817;
+}
+.items{
+    text-align: center;
+}
+.footer p{
+    padding: 10px;
+}
+.stuff{
+    margin-bottom: 2rem;
+}
+.btnToTop{
+    background-color: #E77817;
+    position: fixed;
+    left: 92%;
+    display: none;
+    bottom: 5%;
+    cursor: pointer;
+    color: white;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    border: none;
+    outline: none;
+}
+.icon{
+    font-size: 30px;
+}
+.btnToTop:active{
+    background: #E77817;
+}
+
